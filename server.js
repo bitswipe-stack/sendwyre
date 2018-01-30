@@ -6,7 +6,7 @@ const app = express()
 
 app.engine('html', require('ejs').renderFile)
 
-app.set('/views', express.static(path.join(__dirname, '/views')))
+app.set(express.static(path.join(__dirname, '/views')))
 app.set('view engine', 'html')
 app.use('/assets', express.static(path.join(__dirname, '/assets')))
 app.use('/cdn-cgi', express.static(path.join(__dirname, '/cdn-cgi')))
@@ -18,16 +18,16 @@ app.get('/', (request, response) => {
   response.render('index')
 })
 
-app.get('/areas', (request, response) => {
-  response.render('areas')
-})
-
 app.get('/about', (request, response) => {
   response.render('about')
 })
 
 app.get('/api', (request, response) => {
   response.render('api')
+})
+
+app.get('/areas', (request, response) => {
+  response.render('areas')
 })
 
 app.get('/business', (request, response) => {
@@ -38,8 +38,24 @@ app.get('/dashboard', (request, response) => {
   response.render('dashboard')
 })
 
+app.get('/exchange-rates', (request, response) => {
+  response.render('exchange-rates')
+})
+
 app.get('/individual', (request, response) => {
   response.render('individual')
+})
+
+app.get('/privacy-policy', (request, response) => {
+  response.render('privacy-policy')
+})
+
+app.get('/security', (request, response) => {
+  response.render('security')
+})
+
+app.get('/user-agreement', (request, response) => {
+  response.render('user-agreement')
 })
 
 const server = app.listen(process.env.PORT || 5000, () => {
