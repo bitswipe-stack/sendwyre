@@ -1,0 +1,35 @@
+{
+  "name": "www.sendwyre.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "html": "^1.0.0",
+    "path": "^0.12.7",
+    "vue": "^2.5.13"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  },
+  "scripts": {
+    "test": "xo",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitswipe-stack/sendwyre.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitswipe-stack/sendwyre/issues"
+  },
+  "homepage": "https://github.com/bitswipe-stack/sendwyre#readme",
+  "xo": {
+    "space": true,
+    "semicolon": false
+  }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Business/32/2px stroked</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Rates-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rates-Desktop" transform="translate(-1148.000000, -1860.000000)">
+            <g id="Business/32/2px-stroked" transform="translate(1148.000000, 1860.000000)">
+                <g id="Business-32/2px-stroked">
+                    <rect id="Rectangle-2" x="0" y="0" width="32" height="32"></rect>
+                    <rect id="Rectangle-4-Copy" fill="#94C5FF" opacity="0.3" x="15" y="15" width="2" height="4"></rect>
+                    <path d="M8,6 L13.009222,6 C13.5564136,6 14,6.45097518 14,6.99077797 L14,12 L8,12 L8,6 Z" id="Rectangle-5-Copy-3" fill="#94C5FF" opacity="0.3"></path>
+                    <path d="M22,6 L27.009222,6 C27.5564136,6 28,6.45097518 28,6.99077797 L28,12 L22,12 L22,6 Z" id="Rectangle-5-Copy-2" fill="#94C5FF" opacity="0.3"></path>
+                    <path d="M15,14 L15,12 L7,12 L7,30 L15,30 L15,15 L12,15 L12,14 L15,14 Z" id="Combined-Shape" fill="#94C5FF" opacity="0.3"></path>
+                    <path d="M21,12 L28.0029699,12 C28.5536144,12 29,12.4547089 29,12.9999602 L29,29 L21,29 L21,12 Z" id="Rectangle-3-Copy-2" fill="#94C5FF" opacity="0.3"></path>
+                    <path d="M3,29 L31.0017544,29 C31.5530702,29 32,29.4426603 32,29.9989566 L32,31.0010434 C32,31.5527519 31.5444793,32 31.0017544,32 L3.99824564,32 C3.4469298,32 3,31.5573397 3,31.0010434 L3,29 Z" id="Rectangle-6" fill-opacity="0.3" fill="#94C5FF"></path>
+                    <rect id="Rectangle-4" stroke="#1A32AF" stroke-width="2" stroke-linecap="round" x="11" y="13" width="6" height="4"></rect>
+                    <rect id="Rectangle-5" stroke="#1A32AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="4" y="5" width="6" height="6"></rect>
+                    <rect id="Rectangle-5-Copy" stroke="#1A32AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="18" y="5" width="6" height="6"></rect>
+                    <path d="M1,29 L27,29" id="Path-2" stroke="#1A32AF" stroke-width="2" stroke-linecap="round"></path>
+                    <rect id="Rectangle-3" stroke="#1A32AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="3" y="11" width="8" height="18"></rect>
+                    <rect id="Rectangle-3-Copy" stroke="#1A32AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="17" y="11" width="8" height="18"></rect>
+                    <path d="M7,4 L7,1" id="Path-3" stroke="#1A32AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M21,4 L21,1" id="Path-3-Copy" stroke="#1A32AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M6,15 L8,15" id="Path-4" stroke="#1A32AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M20,15 L22,15" id="Path-4-Copy" stroke="#1A32AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M6,19 L8,19" id="Path-4-Copy-3" stroke="#1A32AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M20,19 L22,19" id="Path-4-Copy-2" stroke="#1A32AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M6,23 L8,23" id="Path-4-Copy-5" stroke="#1A32AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M20,23 L22,23" id="Path-4-Copy-4" stroke="#1A32AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

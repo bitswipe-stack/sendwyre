@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="102px" viewBox="0 0 90 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Direct to bank Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00E592" offset="0%"></stop>
+            <stop stop-color="#00C759" offset="100%"></stop>
+        </linearGradient>
+        <path d="M28,55 C41.4079846,55 44,52.4079846 44,39 C44,25.5920154 41.4079846,23 28,23 C14.5920154,23 12,25.5920154 12,39 C12,52.4079846 14.5920154,55 28,55 Z" id="path-2"></path>
+        <filter x="-143.8%" y="-137.5%" width="387.5%" height="387.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.552941176   0 0 0 0 0  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FFAB00" offset="0%"></stop>
+            <stop stop-color="#FF8D00" offset="100%"></stop>
+        </linearGradient>
+        <path d="M28,56 C51.463973,56 56,51.463973 56,28 C56,4.53602701 51.463973,0 28,0 C4.53602701,2.87350794e-15 0,4.53602701 0,28 C1.43675397e-15,51.463973 4.53602701,56 28,56 Z" id="path-5"></path>
+        <path d="M21.2647615,25 L35.7352385,25 L35.7352385,25 C37.1402899,25 38.4423172,25.7371953 39.1652102,26.942017 L42.1826051,31.9710085 L42.1826051,31.9710085 C42.7509014,32.918169 42.4437713,34.1466895 41.4966108,34.7149859 C41.1857799,34.9014843 40.8301071,35 40.4676192,35 L16.5323808,35 L16.5323808,35 C15.4278113,35 14.5323808,34.1045695 14.5323808,33 C14.5323808,32.6375121 14.6308964,32.2818393 14.8173949,31.9710085 L17.8347898,26.942017 L17.8347898,26.942017 C18.5576828,25.7371953 19.8597101,25 21.2647615,25 Z" id="path-6"></path>
+    </defs>
+    <g id="Individual-Template" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-756.000000, -2096.000000)" id="uses">
+            <g transform="translate(80.000000, 1800.000000)">
+                <g id="property" transform="translate(576.000000, 312.000000)">
+                    <g id="Direct-to-bank-Copy" transform="translate(117.000000, 0.000000)">
+                        <g id="Oval-6">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                        <g id="Oval-6-Copy">
+                            <use fill="url(#linearGradient-4)" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            <path stroke-opacity="0.1" stroke="#FF8D00" stroke-width="8" d="M28,60 C2.32688801,60 -4,53.673112 -4,28 C-4,2.32688801 2.32688801,-4 28,-4 C53.673112,-4 60,2.32688801 60,28 C60,53.673112 53.673112,60 28,60 Z"></path>
+                            <path stroke-opacity="0.1" stroke="#FF8D00" stroke-width="16" d="M28,64 C13.4196613,64 5.37891641,62.2906047 -0.455844122,56.4558441 C-6.29060465,50.6210836 -8,42.5803387 -8,28 C-8,13.4196613 -6.29060465,5.37891641 -0.455844122,-0.455844122 C5.37891641,-6.29060465 13.4196613,-8 28,-8 C42.5803387,-8 50.6210836,-6.29060465 56.4558441,-0.455844122 C62.2906047,5.37891641 64,13.4196613 64,28 C64,42.5803387 62.2906047,50.6210836 56.4558441,56.4558441 C50.6210836,62.2906047 42.5803387,64 28,64 Z"></path>
+                        </g>
+                        <g id="Combined-Shape" stroke-linejoin="round">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                            <path stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="3" d="M21.2647615,23.5 L35.7352385,23.5 C37.6671842,23.5 39.4574717,24.5136436 40.4514496,26.1702733 L43.4688445,31.1992649 C44.463363,32.8567958 43.9258853,35.0067067 42.2683544,36.0012252 C41.7244005,36.3275976 41.1019731,36.5 40.4676192,36.5 L16.5323808,36.5 C14.5993841,36.5 13.0323808,34.9329966 13.0323808,33 C13.0323808,32.3656462 13.2047832,31.7432188 13.5311555,31.1992649 L16.5485504,26.1702733 C17.5425283,24.5136436 19.3328158,23.5 21.2647615,23.5 Z"></path>
+                            <path stroke-opacity="0.15" stroke="#FFFFFF" stroke-width="6" d="M21.2647615,22 L35.7352385,22 C38.1940784,22 40.4726262,23.2900918 41.737689,25.3985297 L44.7550839,30.4275212 C46.1758247,32.7954226 45.4079993,35.8667238 43.040098,37.2874646 C42.263021,37.7537108 41.373839,38 40.4676192,38 L16.5323808,38 C13.770957,38 11.5323808,35.7614237 11.5323808,33 C11.5323808,32.0937803 11.7786699,31.2045982 12.2449161,30.4275212 L15.262311,25.3985297 C16.5273738,23.2900918 18.8059216,22 21.2647615,22 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

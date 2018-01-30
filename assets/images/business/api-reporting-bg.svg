@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="882px" viewBox="0 0 1440 882" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#9BB2CC" stop-opacity="0.07" offset="0%"></stop>
+            <stop stop-color="#9BB2CC" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M80,3323.33483 C253.350265,3274.44494 493.350265,3250 800,3250 C1106.64973,3250 1346.64973,3274.44494 1520,3323.33483 L1520,4132 L80,4132 L80,3323.33483 Z" id="path-2"></path>
+    </defs>
+    <g id="Business-Template" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-80.000000, -3250.000000)" id="Rectangle">
+            <g>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <path stroke="#FFFFFF" stroke-width="8" d="M84,3326.36677 L84,4128 L1516,4128 L1516,3326.36677 C1343.28484,3278.13739 1104.59718,3254 800,3254 C495.402817,3254 256.715158,3278.13739 83.9999981,3326.36682 L84,3326.36677 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

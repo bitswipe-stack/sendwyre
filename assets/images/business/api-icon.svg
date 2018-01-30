@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Realtime</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="13" cy="13" r="13"></circle>
+    </defs>
+    <g id="Business-Template" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1000.000000, -3152.000000)" id="Card-Label-Copy">
+            <g transform="translate(968.000000, 3096.000000)">
+                <g id="Realtime" transform="translate(32.000000, 56.000000)">
+                    <g id="Dashboard">
+                        <path d="M28,56 C51.463973,56 56,51.463973 56,28 C56,4.53602701 51.463973,0 28,0 C4.53602701,2.87350794e-15 0,4.53602701 0,28 C1.43675397e-15,51.463973 4.53602701,56 28,56 Z" id="Oval-6-Copy-3" fill="#A000C7"></path>
+                        <g id="Dashboard-icon" transform="translate(15.000000, 15.000000)">
+                            <g id="Oval-2">
+                                <use fill-opacity="0.699999988" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <circle stroke-opacity="0.2" stroke="#FFFFFF" stroke-width="4" cx="13" cy="13" r="15"></circle>
+                                <circle stroke-opacity="0.2" stroke="#FFFFFF" stroke-width="8" cx="13" cy="13" r="17"></circle>
+                            </g>
+                            <polyline id="Path-2" stroke="#A000C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="8 10 5 13 8 16"></polyline>
+                            <polyline id="Path-2-Copy" stroke="#A000C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(19.500000, 13.000000) scale(-1, 1) translate(-19.500000, -13.000000) " points="21 10 18 13 21 16"></polyline>
+                            <path d="M11,19 L15,7" id="Path-3" stroke="#A000C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

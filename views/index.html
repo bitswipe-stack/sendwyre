@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Faster, Cheaper International Money Transfer - Wyre</title>
+    <!-- <link rel="canonical" href="https://www.sendwyre.com/"> -->
+    <meta name="description" content="Wyre leverages cutting-edge technology to bring you the fastest, most cost-effective international money transfers. Sign up today to start saving 6% on every transfer.">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.10.2/bodymovin_light.min.js" defer></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="theme-color" content="#1A32AF">
+    
+    <link rel="apple-touch-icon" href="./assets/images/Favicon192.png">
+    <link rel="icon" sizes="192x192" href="./assets/images/Favicon192.png">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="stylesheet" href="./css/global.min.css">
+    
+    <script type="text/javascript" src="./js/bundle.js" async></script>
+    
+    
+    <!-- <script async>
+        // If we're NOT on localhost
+        if (window.location.origin.indexOf("localhost") === -1) {
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+            ga('create', 'UA-88956296-1', 'auto');
+            ga('require', 'GTM-PMDLF72');        
+            ga('send', 'pageview');
+        }
+    </script> -->
+    
+    
+    <script async>
+        if (window.location.origin.indexOf("localhost") === 1) {
+            var _hmt = _hmt || [];
+            (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?100283ec5f3112f4215a0acca2c8b74c";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+            })();
+        }
+    </script>
+    
+    
+    <script async>
+        if (window.location.origin.indexOf("localhost") === 1) {
+            window._cloudAmp = window._cloudAmp || {};
+                _cloudAmp.forms = [];
+                (function () {
+                    var scripts = document.getElementsByTagName('script'),
+                        sLen = scripts.length,
+                        ca_script = document.createElement('script'),
+                        head = document.getElementsByTagName('head'),
+                        protocol = document.location.protocol,
+                        httpsDomain = '1d5ef9e9369608f625a8-878b10192d4a956595449977ade9187d.ssl.cf2.rackcdn.com',
+                        httpDomain = 'trk.cloudamp.net',
+                        filename = 'ctk.js',
+                        srcDomain = protocol === 'http:' ? httpDomain : httpsDomain;
+            
+                    ca_script.type = 'text/javascript';
+                    ca_script.async = true;
+                    ca_script.src = protocol + '//' + srcDomain + '/' + filename;
+                    head[0].appendChild(ca_script);
+                })();
+        }
+    </script>
+    
+    <link rel="stylesheet" href="../css/flexboxgrid.min.css">
+</head>
+
+
+<body class="index-page">
+
+    <div class="OuterContainer">
+        <div class="herobg"></div>
+        <div class="InnerContainer">
+            <nav class="trans-nav ">
+                <div class="wyre-container">
+                    <div class="nav-left">
+                        <a href="/" alt="Wyre" class="logo"></a>
+                        <a class="button is-link" href="/individual">Individual</a>
+                        <a class="button is-link" href="/business">Business</a>
+                        <a class="button is-link" href="/api">API</a>
+                    </div>
+                    <div class="nav-right">
+                        <a class="button is-link" href="https://dash.sendwyre.com/sign-in">Log In</a>
+                        <a class="button is-edged nav-sign-up" href="https://dash.sendwyre.com/register">Sign Up Free</a>
+                    </div>
+                    <div class="nav-mobile">
+                        <a href="/" alt="Wyre" class="logo"></a>
+                        <a href="tel:4153747356" class="button is-green call-now-button">Call Now</a>
+                        <div class="mobile-menu-open"><span></span></div>
+                        <div class="mobile-menu-full is-closed">
+                            <a href="/individual" class="button is-link">Individual</a>
+                            <a href="/business" class="button is-link">Business</a>
+                            <a href="/api" class="button is-link">Api</a>
+                            <div class="mobile-cta-buttons">
+                                <a class="button" href="https://dash.sendwyre.com/sign-in">Log In</a>
+                                <a class="button nav-sign-up" href="https://dash.sendwyre.com/register">Sign Up Free</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="HeaderContent row between-sm">
+                <div class="HeaderCopy col-sm-6 col-xs-12">
+                    <h1 class="LeftColumnText white">Faster, cheaper international transfers</h1>
+                    <div class="thickunderline"></div>
+                    <h2>Wyre delivers your payments around the world in hours. On average, our customers save 6% on each transfer.</h2>
+                </div>
+                <div class="col-sm-6 col-xs-10 left-sm center-xs" style="z-index:1; margin-top:16px;">
+                    <div class="rates-module">
+                        <div class="dots"></div>
+                        <div class="send">
+                            <label for="send-amount">You send</label>
+                            <div class="input-container">
+                                <span class="currency-symbol">{{ sendCurrencySymbol }}</span>
+                                <input type="number" v-model="sendAmount" v-on:keyup="refresh('source')" id="send-amount">
+                    
+                                <div class="rate-select-container" v-bind:class="dropdowns.sendCurrencyArrowClass">
+                                    <img class="input-flag" v-bind:src="'./assets/images/flags/' + selected.sendCurrency + '.svg'">
+                                    <div class="desktop-picker">
+                                        <input type="text" readonly
+                                            v-model="selected.sendCurrency" 
+                                            v-on:focus="openCurrencyDropdown('send')"
+                                            v-on:blur="closeCurrencyDropdowns">
+                                        <ul class="rates-select-dropdown"
+                                            v-if="dropdowns.sendCurrencyDropdownOpen">
+                                            <li v-bind:class="currency"
+                                                v-for="currency in sendCurrencies"
+                                                v-on:click="selectSendCurrency(currency)">
+                                                    {{ currency }}
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="mobile-picker">
+                                        <select name="send-currencies" v-on:change="refresh('source')" v-model="selected.sendCurrency">
+                                            <option v-for="currency in sendCurrencies">
+                                                {{ currency }}
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                        </div>
+                    
+                        <div class="receive">
+                            <label for="receive-amount">They receive</label>
+                            <div class="input-container">
+                                <span class="currency-symbol">{{ receiveCurrencySymbol }}</span>
+                                <input type="number" v-model="receiveAmount" v-on:keyup="refresh('dest')" id="receive-amount">
+                    
+                                <div class="rate-select-container" v-bind:class="dropdowns.receiveCurrencyArrowClass">
+                                    <img class="input-flag" v-bind:src="'./assets/images/flags/' + selected.receiveCurrency + '.svg'">
+                                    <div class="desktop-picker">
+                                        <input type="text" readonly
+                                            v-model="selected.receiveCurrency"
+                                            v-on:focus="openCurrencyDropdown('receive')"
+                                            v-on:blur="closeCurrencyDropdowns">
+                                        <ul class="rates-select-dropdown" v-if="dropdowns.receiveCurrencyDropdownOpen">
+                                            <li v-bind:class="currency"
+                                                v-for="currency in receiveCurrencies"
+                                                v-on:click="selectReceiveCurrency(currency)">
+                                                    {{ currency }}
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="mobile-picker">
+                                        <select name="receive-currencies" v-on:change="refresh('source')" v-model="selected.receiveCurrency">
+                                            <option v-for="currency in receiveCurrencies">
+                                                {{ currency }}
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fees-callout">
+                            <span class="has-info" v-if="exchangeRate">
+                                <span class="value">{{ exchangeRate }}</span> Exchange rate
+                                <div class="info">Our rates update constantly, getting you the best deal possible.</div>
+                            </span>
+                            <span class="has-info" v-if="currencyFees">
+                                <span class="value">{{ currencyFeeSymbol }} {{ currencyFees }}</span> Included fee
+                                <div class="info">
+                                    <h4>Compare us to anyone.</h4>
+                                    <p>We'll be here when you get back.</p>
+                                </div>
+                            </span>
+                            <span v-if="minerFees">
+                                <span class="value">{{ minerFees }}</span> Miner fee
+                            </span>
+                        </div>
+                    
+                        <a href="https://dash.sendwyre.com/#/register" class="button is-full">Send now</a>
+                    
+                    </div>                </div>
+            </div>
+        </div>
+
+        <div class="InnerContainer logorow">
+            <span class="brandlogo"><img alt="Rational FX logo" src="./assets/images/RationalFX.svg"></span>
+            <span class="brandlogo"><img alt="Nihao Pay logo" src="./assets/images/NihaoPay.svg"></span>
+            <span class="brandlogo"><img alt="Haitou 360 logo" src="./assets/images/Haitou360.svg"></span>
+            <span class="brandlogo"><img alt="9FBank logo" src="./assets/images/9fbank.svg"></span>
+        </div>
+
+        <div class="InnerContainer trackerspeed row between-sm">
+            <div class="tracker col-sm-4 col-xs-12 last-sm last-xs center-xs">
+                <img alt="Process tracking complete" src="./assets/images/CompletedGreenBar.svg" class="completedgreenbar rellax" data-rellax-speed=".2">
+                <img alt="Process tracking feature" src="./assets/images/TrackerBG.svg" class="TrackerImage">
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <h1>International payments delivered in 6 hours.</h1>
+                <h1>Track every step.</h1>
+                <p>We believe international payments should be transparent. Every payment has a unique tracking link that you and your beneficiary can follow from start to finish.</p>
+            </div>
+        </div>
+
+        <section class="ratesbg">
+            <div class="wyre-container">
+                    <img alt="Wyre's flat 0.75% rate" src="./assets/images/ratesbluebold.svg" class="RatesImage feescalloutdesktop">
+
+                    <div class="fees-content">
+                        <h1>Fees so fair we actually list them</h1>
+                        <p>Banks add big margins into their currency exchange rates, which is costing your bottom line. We want to give this back to your business, from here on out.<br><br>With Wyre, you always get the true market exchange rate, and we charge a <span class="boldblue">0.75% transaction fee</span>. Pretty simple.</p>
+                    </div>
+
+                <div class="feescalloutcontainermobile row">
+                    <div class="wyrefee col-xs-6">
+                        <h1 class="white">0.75%</h1>
+                        <h4 class="white">WYRE</h4>
+                    </div>
+                    <div class="bankfee col-xs-6">
+                        <h1>4-6%</h1>
+                        <h4>BANKS</h4>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="RatesChart InnerContainer row">
+                <div class="col-sm-6 col-xs-12">
+                    <h1 class="LeftColumnText">Exchange rates you can count on</h1>
+                    <p class="LeftColumnText">We've stripped away all the secretive fees and offer you the best exchange rates on the market. What you see is what you get.</p>
+                    <br>
+                    <a href="/exchange-rates" style="width: 190px;" class="button is-primary is-edged">Exchange Rates</a>
+                </div>
+                <div class="col-sm-6 col-xs-12 end-sm center-xs">
+                    <div class="RatesChartBG">
+                        <img alt="Wyre currency exchange rate graph" src="./assets/images/RatesChartPlaceholder.png" class="RatesChartPlaceholder">
+                    </div>
+                </div>
+            </div>
+
+        <div class="PressQuote row center-xs middle-xs" style="margin:0">
+            <div class="InnerContainer row between-xs">
+                <div class="col-sm-4 col-xs-12 row">
+                    <div class="ipayoutbg"></div>
+                </div>
+                <div class="col-sm-8 col-xs-12 row middle-xs">
+                    <p class="quotetext white">“Moving to Wyre gave us better transaction management within the specific regions, and the flat rate we are getting with Wyre is well below what we were previously paying.”<br><br><span style="font-style:normal;">—Natalia Yenatska | Chief Compliance Officer | i-payout</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="CoverageCopy InnerContainer">
+            <h1 class="centered">Coverage</h1>
+            <p class="centered">Focused offerings to provide the best service possible.</p>
+            <div class="row center-xs aoolink"><a href="/areas" class="NewWayLink"><p class="linkarrow-cta fancyhover">Areas of Operation</p></a></div>
+        </div>
+        <div class="mapcontainer">
+            <div id="bodymovinMap" class="map"></div>
+        </div>
+        <div class="countrydotscontainer">
+            
+            <div class="lrlarge">
+                <a href="#0" class="locationlink brazilposition hoversmall row center-xs">
+                    <div class="locationtooltip">
+                        <div class="locationtooltiptitle">
+                            <h3 class="locationtitle">Brazil</h3>
+                            <h4 class="locationcurrency">BRL</h4>
+                        </div>
+                        <div class="locationtooltipline"></div>
+                        <h5 class="locationtooltipdetail">0.75% exchange fee</h5>
+                        <h5 class="locationtooltipdetail" style="margin-top:-8px;">6 hour delivery</h5>
+                        <img src="./assets/images/caret.svg" class="tooltipcaret">
+                    </div>
+                    <img alt="Brazil flag" src="./assets/images/brazil.png" class="locationdot brazildot">
+                </a>
+            </div>
+            
+            <div class="lrmid">
+                <a href="#0" class="locationlink mexicoposition hoverlarge row center-xs">
+                    <div class="locationtooltip">
+                        <div class="locationtooltiptitle">
+                            <h3 class="locationtitle">Mexico</h3>
+                            <h4 class="locationcurrency">MXN</h4>
+                        </div>
+                        <div class="locationtooltipline"></div>
+                        <h5 class="locationtooltipdetail">0.75% exchange fee</h5>
+                        <h5 class="locationtooltipdetail" style="margin-top:-8px;">6 hour delivery</h5>
+                        <img src="./assets/images/caret.svg" class="tooltipcaret">
+                    </div>
+                    <img alt="Mexico flag" src="./assets/images/mexico.png" class="locationdot mexicodot">
+                </a>
+            </div>
+            
+            <div class="lrsmall">
+                <a href="#0" class="locationlink usaposition hoverlarge row center-xs">
+                    <div class="locationtooltip">
+                        <div class="locationtooltiptitle">
+                            <h3 class="locationtitle">United States</h3>
+                            <h4 class="locationcurrency">USD</h4>
+                        </div>
+                        <div class="locationtooltipline"></div>
+                        <h5 class="locationtooltipdetail">0.75% exchange fee</h5>
+                        <h5 class="locationtooltipdetail" style="margin-top:-8px;">Next business day</h5>
+                        <img src="./assets/images/caret.svg" class="tooltipcaret">
+                    </div>
+                    <img alt="United states flag" src="./assets/images/us.png" class="locationdot usadot">
+                </a>
+            </div>
+            
+            <div class="lrlarge">
+                <a href="#0" class="locationlink chinaposition hoversmall row center-xs">
+                    <div class="locationtooltip">
+                        <div class="locationtooltiptitle">
+                            <h3 class="locationtitle">China</h3>
+                            <h4 class="locationcurrency">RMB</h4>
+                        </div>
+                        <div class="locationtooltipline"></div>
+                        <h5 class="locationtooltipdetail">0.75% exchange fee</h5>
+                        <h5 class="locationtooltipdetail" style="margin-top:-8px;">6 hour delivery</h5>
+                        <img src="./assets/images/caret.svg" class="tooltipcaret">
+                    </div>
+                    <img alt="Chinese flag" src="./assets/images/cny.png" class="locationdot chinadot">
+                </a>
+            </div>
+
+            <div class="lrsmall">
+                <a href="#0" class="locationlink bitcoinposition hoversmall row center-xs">
+                    <div class="locationtooltip">
+                        <div class="locationtooltiptitle">
+                            <h3 class="locationtitle">Bitcoin</h3>
+                            <h4 class="locationcurrency">BTC</h4>
+                        </div>
+                        <div class="locationtooltipline"></div>
+                        <h5 class="locationtooltipdetail">0.75% + 0.0004 BTC fee</h5>
+                        <h5 class="locationtooltipdetail" style="margin-top:-8px;">Real time</h5>
+                        <img src="./assets/images/caret.svg" class="tooltipcaret">
+                    </div>
+                    <img alt="Bitcoin logo" src="./assets/images/btc.png" class="locationdot bitcoindot">
+                </a>
+            </div>
+            <div class="lrmid">
+                <a href="#0" class="locationlink koreaposition hovermid row center-xs">
+                    <div class="locationtooltip">
+                        <div class="locationtooltiptitle">
+                            <h3 class="locationtitle">South Korea</h3>
+                            <h4 class="locationcurrency">KRW</h4>
+                        </div>
+                        <div class="locationtooltipline"></div>
+                        <h5 class="locationtooltipdetail">0.75% exchange fee</h5>
+                        <h5 class="locationtooltipdetail" style="margin-top:-8px;">6 hour delivery</h5>
+                        <img src="./assets/images/caret.svg" class="tooltipcaret">
+                    </div>
+                    <img alt="South Korea flag" src="./assets/images/southkorea.png" class="locationdot koreadot">
+                </a>
+            </div>
+        </div>
+
+        <div class="NewWayToPay InnerContainer">
+            <h1>A new way to transfer money</h1>
+            <p class="NewWaySubheader">Pay with our dashboard or integrate with our money transfer API. Either way, you’re getting the fastest and fairest currency exchange rates out there.</p>
+            <div class="row NewWayPoints">
+                <div class="col-sm-6 col-xs-12 NewWayPoint row start-xs">
+                    <div id="bodymovinCard" class="NewWayIcon CreditCardIcon"></div>
+
+                    <div class="NewWayPointText">
+                        <h3>Dashboard</h3>
+                        <h4 class="NewWaySubheader2">The Wyre Dashboard is the easiest way to send money online. Log on to track, monitor, and execute all your payments from one beautiful interface backed by bank level security.</h4>
+                        <a href="/dashboard" class="NewWayLink"><p class="linkarrow-cta fancyhover">Explore the Dashboard</p></a>
+                    </div>
+                </div>
+            </div>
+            <img alt="Dashboard preview" src="./assets/images/dashboardscreen.png" class="mobiledashscreen">
+        </div>
+        <div class="laptopcontainer">
+            <img alt="Wyre dashboard on a laptop" src="./assets/images/laptopscreenshot3.png" class="laptopimg3">
+        </div>
+
+        <div class="APISection InnerContainer row between-sm">
+            <div class="col-sm-5 col-xs-12 first-sm last-xs">
+                <div class="codesnippetcontainer">
+                    <div class="codebgshapecontainer rellax" data-rellax-speed="-.5">
+                        <img src="./assets/images/codebgshape.svg">
+                    </div>
+                    <div class="codesnippet"></div>
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-xs-12 row start-xs">
+                <div id="bodymovinBuilding" class="NewWayIcon BusinessIcon"></div>
+                <div class="NewWayPointText">
+                    <h3>API</h3>
+                    <h4 class="NewWaySubheader2">Streamline your cross border payments. Leverage our robust money transfer API behind the scenes to programmatically charge and send funds around the world, all while maintaining your brand's user experience.</h4>
+                    <a href="https://docs.sendwyre.com/" class="NewWayLink"><p class="linkarrow-cta fancyhover">Explore the API</p></a>
+                </div>
+            </div>
+        </div>
+       
+       <section class="reviews-container">
+
+           <h2>What people are saying about Wyre</h2>
+           <p>People love our fast transfers, fair exchange rates, and world class customer service. That’s why we we’re rated as great on <a href="https://www.trustpilot.com/review/sendwyre.com" target="_blank" rel="noopener">Trustpilot</a>.</p>
+           <div class="reviews-module">
+               <ul class="reviews-list">
+                   <li class="blank-review"></li>
+                   <li class="review" v-for="review, index in reviews" v-bind:class="{'is-shown': review.shown }" v-on:click="showReview(index)">
+                       <span class="top">
+                           <span class="rating"></span>
+                           <span class="date">{{ review.date }} •</span>
+                           <span class="author">{{ review.author }}</span>
+                       </span>
+                       <span class="title">{{ review.title }}</span>
+                       <span class="content">{{ review.review }}</span>
+                   </li>
+                   <li class="blank-review"></li>
+               </ul>
+               <a class="previousReviewButton" v-on:click="showPreviousReview" v-if="current_review > 0"></a>
+               <a class="nextReviewButton" v-on:click="showNextReview" v-if="current_review < (reviews.length - 1)"></a>
+           </div>
+       </section>
+
+        <div class="BottomCTA row middle-xs">
+            <div class="InnerContainer row center-xs middle-xs">
+
+                <div class="col-xs-12">
+                    <div class="bottomctacopycontainer">
+                        <h1 class="white bottomctacopy">Start saving time and money with Wyre</h1>
+                    </div>
+                </div>
+                <div class="formWrapper">
+                    <form class="email-form">
+                        <input type="email" placeholder="Email" id="email" required>
+                        <button type="submit" class="button is-edged is-success">Sign up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+       
+           <div class="wyre-container">
+       
+               <div class="footer-logo">
+                   <img src="./assets/images/WyreLogoWhite.svg" alt="Wyre Logo" class="WyreLogoWhite FooterLogo">
+               </div>
+               <div class="primary-links">
+                   <ul>
+                       <li><a href="/about">About Us</a></li>
+                       <li><a href="/areas">Areas of Operation</a></li>
+                       <li><a href="/exchange-rates">Compare Rates</a></li>
+                       <li><a href="https://blog.sendwyre.com/">Blog</a></li>
+                       <li><a href="/dashboard">Dashboard</a></li>
+                       <br><br>
+                       <li><a href="/security">Security</a></li>
+                       <li><a href="privacy-policy">Privacy Policy</a></li>
+                       <li><a href="user-agreement">User Agreement</a></li>
+                       <li><a href="http://support.sendwyre.com/">Help Center</a></li>
+                   </ul>
+               </div>
+               <div class="secondary-links">
+                   <ul>
+                       <li><a href="https://dash.sendwyre.com/register">Sign Up</a></li>
+                       <li><a href="https://docs.sendwyre.com/">API Documentation</a></li>
+                       <li><a href="http://grnh.se/im4pc51">Careers</a></li>
+                       <br><br>
+                       <li><a href="/cdn-cgi/l/email-protection#a4d7d1d4d4cbd6d0e4d7c1cac0d3ddd6c18ac7cbc9"><span class="__cf_email__" data-cfemail="f784828787988583b784929993808e8592d994989a">[email&#160;protected]</span></a></li>
+                       <li><a href="tel:4153747356">+1 (415)374-7356</a> <span class="small">(US)</span></li>
+                       <li><a href="tel:4008010240">+400-8010-240</a> <span class="small">(China)</span></li>
+                       <br>
+                       <li><a href="https://goo.gl/maps/riXUpVNxHMv" class="white">1550 Bryant Street<br>STE 750<br>San Francisco, CA 94103</a></li>
+                   </ul>
+               </div>
+           </div>
+       
+           <div class="wyre-container">
+               <div class="footer-bottom">
+                   <h5>Wyre Payments, Inc. is a registered money service business (NMLS ID: 1574869).</h5>
+                   <h5>© Wyre, Inc 2013 - 2017. All rights reserved.</h5>
+               </div>
+           </div>
+       </footer>
+    </div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/d07b1474/cloudflare-static/email-decode.min.js"></script></body>
+</html>

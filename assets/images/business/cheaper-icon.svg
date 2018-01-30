@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="102px" viewBox="0 0 90 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Cheaper</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00E592" offset="0%"></stop>
+            <stop stop-color="#00C759" offset="100%"></stop>
+        </linearGradient>
+        <path d="M28,55 C41.4079846,55 44,52.4079846 44,39 C44,25.5920154 41.4079846,23 28,23 C14.5920154,23 12,25.5920154 12,39 C12,52.4079846 14.5920154,55 28,55 Z" id="path-2"></path>
+        <filter x="-143.8%" y="-137.5%" width="387.5%" height="387.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.57254902   0 0 0 0 1  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#00C4FF" offset="0%"></stop>
+            <stop stop-color="#0092FF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M28,56 C51.463973,56 56,51.463973 56,28 C56,4.53602701 51.463973,0 28,0 C4.53602701,2.87350794e-15 0,4.53602701 0,28 C1.43675397e-15,51.463973 4.53602701,56 28,56 Z" id="path-5"></path>
+        <path d="M35.0817409,17.0964004 C33.0443162,15.7704086 30.6121274,15 28,15 L28,28 L35.0817409,17.0964004 Z" id="path-6"></path>
+    </defs>
+    <g id="Business-Template" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-877.000000, -1984.000000)" id="Group-2">
+            <g transform="translate(88.000000, 1696.000000)">
+                <g id="Cheaper" transform="translate(734.000000, 304.000000)">
+                    <g id="Group-3-Copy-3">
+                        <g id="Cheaper" transform="translate(72.000000, 0.000000)">
+                            <g id="Oval-6">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            </g>
+                            <g id="Oval-6-Copy-2">
+                                <use fill="url(#linearGradient-4)" fill-rule="evenodd" xlink:href="#path-5"></use>
+                                <path stroke-opacity="0.1" stroke="#0092FF" stroke-width="8" d="M28,60 C2.32688801,60 -4,53.673112 -4,28 C-4,2.32688801 2.32688801,-4 28,-4 C53.673112,-4 60,2.32688801 60,28 C60,53.673112 53.673112,60 28,60 Z"></path>
+                                <path stroke-opacity="0.1" stroke="#0092FF" stroke-width="16" d="M28,64 C13.4196613,64 5.37891641,62.2906047 -0.455844122,56.4558441 C-6.29060465,50.6210836 -8,42.5803387 -8,28 C-8,13.4196613 -6.29060465,5.37891641 -0.455844122,-0.455844122 C5.37891641,-6.29060465 13.4196613,-8 28,-8 C42.5803387,-8 50.6210836,-6.29060465 56.4558441,-0.455844122 C62.2906047,5.37891641 64,13.4196613 64,28 C64,42.5803387 62.2906047,50.6210836 56.4558441,56.4558441 C50.6210836,62.2906047 42.5803387,64 28,64 Z"></path>
+                            </g>
+                            <circle id="Oval-7" fill="#FFFFFF" opacity="0.200000003" cx="28" cy="28" r="11"></circle>
+                            <g id="Oval-7-Copy" stroke-linejoin="round">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                                <path stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="2" d="M36.4645575,16.8032299 L27,31.3755994 L27,14 L28,14 C30.745005,14 33.374995,14.7924884 35.6272109,16.25827 L36.4645575,16.8032299 Z"></path>
+                                <path stroke-opacity="0.15" stroke="#FFFFFF" stroke-width="4" d="M37.847374,16.5100593 L26,34.7511988 L26,13 L28,13 C30.9401457,13 33.7593565,13.8495058 36.1726808,15.4201396 L37.847374,16.5100593 Z"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

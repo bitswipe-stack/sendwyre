@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Realtime</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00E592" offset="0%"></stop>
+            <stop stop-color="#00C759" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="28" cy="28" r="8"></circle>
+    </defs>
+    <g id="Developer-Template" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-320.000000, -699.000000)" id="3-Points">
+            <g transform="translate(320.000000, 699.000000)">
+                <g id="Card-Label">
+                    <g id="Realtime">
+                        <path d="M28,56 C51.463973,56 56,51.463973 56,28 C56,4.53602701 51.463973,0 28,0 C4.53602701,2.87350794e-15 0,4.53602701 0,28 C1.43675397e-15,51.463973 4.53602701,56 28,56 Z" id="Oval-6-Copy-3" fill="url(#linearGradient-1)"></path>
+                        <g id="Oval-3">
+                            <use fill-opacity="0.600000024" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <circle stroke-opacity="0.2" stroke="#FFFFFF" stroke-width="3" cx="28" cy="28" r="9.5"></circle>
+                            <circle stroke-opacity="0.1" stroke="#FFFFFF" stroke-width="6" cx="28" cy="28" r="11"></circle>
+                        </g>
+                        <g id="Group-2" transform="translate(25.000000, 10.000000)" fill="#FFFFFF">
+                            <g id="Group-3">
+                                <circle id="Oval" cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval-Copy" cx="3" cy="33" r="3"></circle>
+                            </g>
+                        </g>
+                        <g id="Group-2-Copy" transform="translate(28.000000, 28.000000) rotate(60.000000) translate(-28.000000, -28.000000) translate(25.000000, 10.000000)" fill="#FFFFFF">
+                            <g id="Group-3">
+                                <circle id="Oval" cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval-Copy" cx="3" cy="33" r="3"></circle>
+                            </g>
+                        </g>
+                        <g id="Group-2-Copy-2" transform="translate(28.000000, 28.000000) rotate(120.000000) translate(-28.000000, -28.000000) translate(25.000000, 10.000000)" fill="#FFFFFF">
+                            <g id="Group-3">
+                                <circle id="Oval" cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval-Copy" cx="3" cy="33" r="3"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

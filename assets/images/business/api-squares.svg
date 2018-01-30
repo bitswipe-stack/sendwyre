@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="136px" height="144px" viewBox="0 0 136 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-Template" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.100000001">
+        <g transform="translate(-1200.000000, -3033.000000)" id="Group-5">
+            <g transform="translate(1200.000000, 3033.000000)">
+                <path d="M16,0 L116,0 L116,0 C118.209139,-4.05812251e-16 120,1.790861 120,4 L120,104 L120,104 C120,112.836556 112.836556,120 104,120 L4,120 L4,120 C1.790861,120 2.705415e-16,118.209139 0,116 L0,16 L0,16 C-1.082166e-15,7.163444 7.163444,1.623249e-15 16,0 Z" id="Rectangle-6-Copy" fill="#0092FF"></path>
+                <path d="M104,96 L132,96 L132,96 C134.209139,96 136,97.790861 136,100 L136,128 L136,128 C136,136.836556 128.836556,144 120,144 L92,144 L92,144 C89.790861,144 88,142.209139 88,140 L88,112 L88,112 C88,103.163444 95.163444,96 104,96 Z" id="Rectangle-6-Copy-4" fill="#00C759"></path>
+            </g>
+        </g>
+    </g>
+</svg>

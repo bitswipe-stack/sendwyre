@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1424px" height="560px" viewBox="0 0 1424 560" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 8 + Path 8 Copy 2 + Path 8 Copy Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0.388997396%" y1="0%" x2="99.5583767%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00B3FF" offset="0%"></stop>
+            <stop stop-color="#0055FF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="0 0 1424 0 1424 560 712 560 0 560"></polygon>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#54FFFB" offset="0%"></stop>
+            <stop stop-color="#00C759" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#FF00F2" offset="0%"></stop>
+            <stop stop-color="#A300FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Business-Template" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-88.000000, -2264.000000)" id="Path-8-+-Path-8-Copy-2-+-Path-8-Copy-Mask">
+            <g transform="translate(88.000000, 2264.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="#FFFFFF" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                </g>
+                <path d="M-99.819672,239 C58.180328,133.666667 225.846995,81 403.180328,81 C669.180328,81 863,198 1093,198 C1323,198 1497,42 1689,42 C1817,42 1743.72678,323.666667 1469.18033,887 L-128,887 L-99.819672,239 Z" id="Path-8" fill="#0092FF" opacity="0.300000012" mask="url(#mask-3)"></path>
+                <path d="M-60,271 C19.3333333,330.333333 169.333333,360 390,360 C721,360 786.597656,293 968,293 C1149.40234,293 1245.5625,480 1502,480 C1672.95833,480 1720.35178,675 1644.18033,1065 L-60,1065 L-60,271 Z" id="Path-8-Copy-2" fill="url(#linearGradient-4)" opacity="0.200000003" mask="url(#mask-3)"></path>
+                <path d="M-85,584 C4.33333333,398 137.666667,305 315,305 C581,305 567,446 788,441 C1009,436 1085,221 1444,356 C1683.33333,446 1678.39344,708.666667 1429.18033,1144 L-176,1144 L-85,584 Z" id="Path-8-Copy" fill="url(#linearGradient-5)" style="mix-blend-mode: soft-light;" opacity="0.100000001" mask="url(#mask-3)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

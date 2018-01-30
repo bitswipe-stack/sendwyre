@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="8px" viewBox="0 0 30 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow/Right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 3 0 5 26.01 5 26.01 8 30 4 26.01 0 26.01 3"></polygon>
+    </defs>
+    <g id="Areas-of-Operation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Areas-of-Operation-Country-Text-Hover" transform="translate(-1250.000000, -44.000000)">
+            <g id="Top-Nav">
+                <g id="Content" transform="translate(320.000000, 28.000000)">
+                    <g id="Log-in-|-Get-started" transform="translate(730.000000, 0.000000)">
+                        <g id="Arrow/Right" transform="translate(200.000000, 16.000000)">
+                            <g id="🎨-Mixin/Black/16">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Mask" fill="#061027" xlink:href="#path-1"></use>
+                                <g mask="url(#mask-2)" id="Black-Mixin/16" fill="#061027">
+                                    <rect x="0" y="0" width="30" height="8"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Realtime</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="30" height="21" rx="2"></rect>
+    </defs>
+    <g id="Business-Template" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-352.000000, -2648.000000)" id="Card-Label">
+            <g transform="translate(320.000000, 2592.000000)">
+                <g id="Realtime" transform="translate(32.000000, 56.000000)">
+                    <g id="Dashboard">
+                        <path d="M28,56 C51.463973,56 56,51.463973 56,28 C56,4.53602701 51.463973,0 28,0 C4.53602701,2.87350794e-15 0,4.53602701 0,28 C1.43675397e-15,51.463973 4.53602701,56 28,56 Z" id="Oval-6-Copy-3" fill="#F44040"></path>
+                        <g id="Dashboard-icon" transform="translate(13.000000, 19.000000)">
+                            <g id="Rectangle-11">
+                                <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <rect stroke-opacity="0.1" stroke="#FFFFFF" stroke-width="4" x="-2" y="-2" width="34" height="25" rx="2"></rect>
+                                <rect stroke-opacity="0.1" stroke="#FFFFFF" stroke-width="8" x="-4" y="-4" width="38" height="29" rx="2"></rect>
+                            </g>
+                            <path d="M2,0 L28,0 L28,0 C29.1045695,-2.02906125e-16 30,0.8954305 30,2 L30,4 L0,4 L0,2 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-11-Copy" fill="#FFFFFF" opacity="0.600000024"></path>
+                            <path d="M5,9 L12,9" id="Path-9" stroke="#F44040" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M5,13 L22,13" id="Path-9-Copy" stroke="#F44040" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M5,16 L8,16" id="Path-9-Copy-2" stroke="#F44040" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M11,16 L17,16" id="Path-9-Copy-3" stroke="#F44040" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

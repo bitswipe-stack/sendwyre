@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="576px" viewBox="0 0 1440 576" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>vAtom</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="4.34302909%" y1="0%" x2="99.0905415%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00A8C5" offset="0%"></stop>
+            <stop stop-color="#3B90F7" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="1440" height="576"></rect>
+        <rect id="path-4" x="0" y="0" width="1440" height="576"></rect>
+    </defs>
+    <g id="Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-80.000000, -3816.000000)" id="API">
+            <g transform="translate(80.000000, 3816.000000)">
+                <g id="vAtom">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <g id="Group-4" opacity="0.699999988" mask="url(#mask-3)">
+                        <g transform="translate(-987.000000, -672.000000)">
+                            <path d="M2514.06773,771.446809 L2331.83857,1215.45952 C2306.60093,1276.94566 2246.60158,1317.11086 2179.98693,1317.11086 L1842.19966,1317.11086 L2024.43482,873.10413 C2049.67245,811.612009 2109.67181,771.446809 2176.28046,771.446809 L2514.06773,771.446809 Z" id="Base-Copy-11" fill="#94C5FF" opacity="0.0599999987"></path>
+                            <path d="M1922.70825,0 L1522.44479,975.266913 C1467.01072,1110.32024 1335.22308,1198.54247 1188.90507,1198.54247 L0,1198.69149 L400.276643,223.437717 C455.71071,88.3712451 587.498353,0.149016157 733.803188,0.149016157 L1922.70825,0 Z" id="Base-Copy-12" fill="#94C5FF" opacity="0.100000001"></path>
+                            <path d="M2739.38343,920.016429 L2514.04653,1469.06383 C2482.83874,1545.095 2408.64606,1594.76159 2326.2732,1594.76159 L804,1594.74516 L1029.34431,1045.70516 C1060.55211,969.666594 1134.74478,920 1217.11022,920 L2739.38343,920.016429 Z" id="Base-Copy-13" fill-opacity="0.400000006" fill="#1A32AF" opacity="0.100000001"></path>
+                            <path d="M2653.04103,620 L2517.67965,949.81646 C2498.93291,995.488892 2454.36488,1025.32395 2404.88295,1025.32395 L1776,1025.32395 L1911.36584,695.511932 C1930.11257,649.835056 1974.68061,620 2024.15809,620 L2653.04103,620 Z" id="Base-Copy-14" fill-opacity="0.200000018" fill="#0092FF" opacity="0.900000036"></path>
+                        </g>
+                    </g>
+                    <mask id="mask-5" fill="white">
+                        <use xlink:href="#path-4"></use>
+                    </mask>
+                    <rect stroke="#FFFFFF" stroke-width="8" x="4" y="4" width="1432" height="568"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

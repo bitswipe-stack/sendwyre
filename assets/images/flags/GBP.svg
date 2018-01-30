@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="24px" viewBox="0 0 38 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>GBP Flag/24-38</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1.32164959e-16,2.00494659 C5.91722677e-17,0.897645164 0.901854498,0 2.00286746,0 L35.9972888,0 C37.1034419,0 38.0001563,0.897026226 38.0001563,2.00494659 L38.0001563,21.9950534 C38.0001563,23.1023548 37.0983018,24 35.9972888,24 L2.00286746,24 C0.896714304,24 1.52293512e-15,23.1029738 1.44990163e-15,21.9950534 L1.32164959e-16,2.00494659 Z" id="path-1"></path>
+    </defs>
+    <g id="Current" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rates.2-Flag-Dropdown" transform="translate(-557.000000, -776.000000)">
+            <g id="Dropdown" transform="translate(540.000000, 592.000000)">
+                <g id="Address-Lookup-Expanded">
+                    <g id="Autocomplete-Dropdown">
+                        <g id="GBP-Flag/24-38" transform="translate(17.000000, 184.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Shape"></g>
+                            <g id="Group" mask="url(#mask-2)">
+                                <g transform="translate(-5.000000, 0.000000)">
+                                    <g>
+                                        <polygon id="Shape" fill="#000066" fill-rule="nonzero" points="0 0 47.9073684 0 47.9073684 23.9536842 0 23.9536842"></polygon>
+                                        <path d="M0,0 L0,2.67808187 L42.551345,23.9537778 L47.9073684,23.9537778 L47.9073684,21.2757895 L5.35602339,0 L0,0 Z M47.9073684,0 L47.9073684,2.67803509 L5.35602339,23.9536842 L0,23.9536842 L0,21.2756491 L42.551345,0 L47.9073684,0 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                        <path d="M19.9614035,0 L19.9614035,23.9536842 L27.9459649,23.9536842 L27.9459649,0 L19.9614035,0 L19.9614035,0 Z M0,7.9845614 L0,15.9691228 L47.9073684,15.9691228 L47.9073684,7.9845614 L0,7.9845614 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                        <path d="M0,9.58147368 L0,14.3722105 L47.9073684,14.3722105 L47.9073684,9.58147368 L0,9.58147368 Z M21.5583626,0 L21.5583626,23.9536842 L26.3490058,23.9536842 L26.3490058,0 L21.5583626,0 L21.5583626,0 Z M0,23.9536842 L15.9691228,15.9691228 L19.5398363,15.9691228 L3.57071345,23.9536842 L0,23.9536842 Z M0,0 L15.9691228,7.9845614 L12.3984094,7.9845614 L0,1.78545029 L0,0 Z M28.3675322,7.9845614 L44.336655,0 L47.9073684,0 L31.9382456,7.9845614 L28.3675322,7.9845614 Z M47.9073684,23.9536842 L31.9382456,15.9691228 L35.5089591,15.9691228 L47.9073684,22.1683275 L47.9073684,23.9536842 Z" id="Shape" fill="#CC0000" fill-rule="nonzero"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
